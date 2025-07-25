@@ -1,7 +1,7 @@
 /* Main container for the entire page */
 .main_body {
   padding: 30rem 2rem 2rem 2rem;     
-  background-color: #f5f7fa;
+  background-color: #6f90c2;
   min-height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
