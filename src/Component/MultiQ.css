@@ -1,0 +1,74 @@
+/* Main container for the entire page */
+.main_body {
+  padding: 30rem 2rem 2rem 2rem;     
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Button container styling */
+.main_body > div:first-child {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+/* Container for all cards */
+.container_card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  overflow: visible; /* prevent hover-cut issue */
+}
+
+/* Each individual card container */
+.quotes_container_card {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.quotes_container_card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Quote text */
+.quote_card {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+/* Author text */
+.quote_Author_card {
+  font-size: 0.9rem;
+  text-align: right;
+  color: #666666;
+}
+
+
+
