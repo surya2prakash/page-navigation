@@ -1,0 +1,81 @@
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(229, 232, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+.quote_container{
+    height: 200px;
+    width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 8px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.quote{
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+  font-family: Georgia, serif;
+  font-style: italic;
+   color: #333;
+  margin-bottom: 10px;
+}
+
+.author{
+    font-size: 14px;
+  font-style: oblique;
+  color: #555;
+  text-align: right;
+  margin-top: 40px;
+  margin-left: 300px;
+}
+
+button{
+   margin-top: 20px;
+   padding: 10px 20px;
+   background-color: #007bff;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #004094;
+  transform: scale(0.98);
+}
+
+.btngroup{
+    margin-bottom: 50px;
+}
+
+.multibtn{
+     margin-left: 10px;
+}
+
+.bbtn{
+    margin-left: 10px;
+}
+.rdbtn{
+    margin-left: 10px;
+}
